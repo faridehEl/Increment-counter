@@ -1,0 +1,29 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(39, 0, 75);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+
+}
+
+.count-container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px;
+    text-align: center;
+}
+.counter{
+    margin: 10px;
+}
+@media (max-width:420px) {
+    
+    body{
+        flex-direction: column;
+    }
+}
